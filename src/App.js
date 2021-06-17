@@ -7,7 +7,7 @@ import './App.css';
 function countActiveUsers(users) {
   console.log('활성 사용자 수를 세는 중...');
   return users.filter(user => user.active).length;
-}
+} 
 
 function App() {
   const [inputs, setInputs] = useState({
